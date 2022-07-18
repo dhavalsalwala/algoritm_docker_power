@@ -41,9 +41,9 @@ You should read your input from /input/merchant-vessel-features.json and write y
 For the development phase of the algorithm docker you can Modify the following paths on the /utils/eval_utils.py 
 to match your local path.
 
-DEFAULT_OUTPUT_PATH = Path("/output")
-DEFAULT_INPUT_PATH = Path("/input")
-DEFAULT_MODEL_PATH = Path("/opt/algorithm/model")
+DEFAULT_OUTPUT_PATH = Path("/output")  
+DEFAULT_INPUT_PATH = Path("/input")  
+DEFAULT_MODEL_PATH = Path("/opt/algorithm/model")  
 
 ### Test you algorithm docker
 
