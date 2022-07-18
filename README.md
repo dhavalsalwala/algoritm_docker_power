@@ -1,0 +1,1 @@
+# algoritm_docker_power
