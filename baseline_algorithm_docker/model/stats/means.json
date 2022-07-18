@@ -1,0 +1,13 @@
+{
+    "draft_aft_telegram": 12.293102748576283,
+    "draft_fore_telegram": 12.060912031749904,
+    "stw": 17.313440774073715,
+    "diff_speed_overground": 0.0016134529988629266,
+    "awind_vcomp_provider": 16.44121606988882,
+    "awind_ucomp_provider": 6.014937167759107,
+    "rcurrent_vcomp": 0.006859633288898829,
+    "rcurrent_ucomp": 0.0007160243132526042,
+    "comb_wind_swell_wave_height": 1.5682613876724523,
+    "timeSinceDryDock": 977774.0789521971,
+    "power": 18007.77378102861
+}
