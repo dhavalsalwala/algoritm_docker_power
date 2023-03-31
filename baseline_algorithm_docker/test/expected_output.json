@@ -1,3 +1,27 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8177edbb00e7b6ef116d3ef227b231199071eb6f3ae13b7d0fa017b118d86a1b
-size 462
+[
+    {
+        "power": 1657,
+        "uncertainties": 157,
+        "time_id": 1
+    },
+       {
+        "power": 15643,
+        "uncertainties": 14321,
+        "time_id": 2
+    },
+        {
+        "power": 12312,
+        "uncertainties": 3123,
+        "time_id": 3
+    },
+       {
+        "power": 42434,
+        "uncertainties": 254244,
+        "time_id": 4
+    },
+       {
+        "power": 321555,
+        "uncertainties": 6555,
+        "time_id": 5
+    }
+]

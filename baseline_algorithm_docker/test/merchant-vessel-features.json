@@ -1,3 +1,67 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c8dd7dc895c243e37cf45257f546e40ce260b5df577811bcbf668adf86982961
-size 2182
+[
+    {
+        "draft_aft_telegram": 12.6,
+        "draft_fore_telegram": 12.52,
+        "stw": 18.2602996826,
+        "diff_speed_overground": 0.0,
+        "awind_vcomp_provider": 20.4793919814,
+        "awind_ucomp_provider": 7.7993379102,
+        "rcurrent_vcomp": 0.0010161937,
+        "rcurrent_ucomp": 0.1126420387,
+        "comb_wind_swell_wave_height": 1.64044,
+        "timeSinceDryDock": 1316927.0,
+        "time_id": 1
+    },
+    {
+        "draft_aft_telegram": 12.99,
+        "draft_fore_telegram": 13.5,
+        "stw": 19.0200004578,
+        "diff_speed_overground": 0.0,
+        "awind_vcomp_provider": 16.1104216185,
+        "awind_ucomp_provider": 2.7656086373,
+        "rcurrent_vcomp": 0.0039397973,
+        "rcurrent_ucomp": 0.3314062192,
+        "comb_wind_swell_wave_height": 1.71667,
+        "timeSinceDryDock": 1479435.0,
+        "time_id": 2
+    },
+    {
+        "draft_aft_telegram": 13.85,
+        "draft_fore_telegram": 13.85,
+        "stw": 15.7403001785,
+        "diff_speed_overground": 0.0,
+        "awind_vcomp_provider": 19.3089277895,
+        "awind_ucomp_provider": 3.0220721704,
+        "rcurrent_vcomp": 0.0883369908,
+        "rcurrent_ucomp": 0.0930816035,
+        "comb_wind_swell_wave_height": 4.60139,
+        "timeSinceDryDock": 830024.0,
+        "time_id": 3
+    },
+    {
+        "draft_aft_telegram": 10.6,
+        "draft_fore_telegram": 10.4,
+        "stw": 14.4711999893,
+        "diff_speed_overground": 0.0,
+        "awind_vcomp_provider": 14.1095613915,
+        "awind_ucomp_provider": 3.3125184184,
+        "rcurrent_vcomp": -0.0239503442,
+        "rcurrent_ucomp": 0.8679554062,
+        "comb_wind_swell_wave_height": 1.17817,
+        "timeSinceDryDock": 1336713.0,
+        "time_id": 4
+    },
+    {
+        "draft_aft_telegram": 13.2,
+        "draft_fore_telegram": 13.2,
+        "stw": 20.2436008453,
+        "diff_speed_overground": -0.1,
+        "awind_vcomp_provider": 26.3926015631,
+        "awind_ucomp_provider": 0.4042674066,
+        "rcurrent_vcomp": -0.3126900156,
+        "rcurrent_ucomp": -0.0523528386,
+        "comb_wind_swell_wave_height": 1.229,
+        "timeSinceDryDock": 1551306.0,
+        "time_id": 5
+    }
+]

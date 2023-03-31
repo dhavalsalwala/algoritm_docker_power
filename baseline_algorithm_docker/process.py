@@ -12,6 +12,7 @@ from model.tranformations import data_normalization, denorm_prediction
 from utils.eval_utils import ShippingBaseAlgorithm, DEFAULT_MODEL_PATH, load_json, DEFAULT_INPUT_PATH, \
     DEFAULT_OUTPUT_PATH
 
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 class MyAlgorithm(ShippingBaseAlgorithm):
     def __init__(self,
@@ -49,6 +50,7 @@ class MyAlgorithm(ShippingBaseAlgorithm):
                                      dropout=0.005)
             model_member_path = Path(member_path) / Path("best_model.pth")
             model.load_state_dict(torch.load(model_member_path))
+            model.to(device)
             self.list_of_models.append(model)
 
     @staticmethod
@@ -67,7 +69,7 @@ class MyAlgorithm(ShippingBaseAlgorithm):
                                          stds=self.std.loc[self.input_features])
 
         # step 2. - model predictions for each member of the ensembles
-        tensor_inputs = torch.tensor(norm_inputs[self.input_features].values).float()
+        tensor_inputs = torch.tensor(norm_inputs[self.input_features].values).float().to(device)
 
         preds_norm = get_ensemble_predictions(model_list=self.list_of_models,
                                               data_norm=tensor_inputs,

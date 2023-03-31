@@ -57,8 +57,8 @@ def get_distributions_params(model, x):
              2 = [mean, std]
     """
     distrs = model.forward(x)
-    return np.concatenate([distrs.loc.detach().numpy().reshape(-1, 1),
-                           distrs.scale.detach().numpy().reshape(-1, 1)],
+    return np.concatenate([distrs.loc.detach().cpu().numpy().reshape(-1, 1),
+                           distrs.scale.detach().cpu().numpy().reshape(-1, 1)],
                           axis=1)
 
 

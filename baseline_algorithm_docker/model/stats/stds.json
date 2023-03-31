@@ -1,13 +1,13 @@
 {
-    "draft_aft_telegram": 1.4641056704171878,
-    "draft_fore_telegram": 1.6230636026381877,
-    "stw": 2.915443289044132,
-    "diff_speed_overground": 0.29909943070719786,
-    "awind_vcomp_provider": 8.891015367805275,
-    "awind_ucomp_provider": 4.551165657112417,
-    "rcurrent_vcomp": 0.47324838468836605,
-    "rcurrent_ucomp": 0.343891762770177,
-    "comb_wind_swell_wave_height": 0.8663071470964885,
-    "timeSinceDryDock": 455741.13183031953,
-    "power": 7713.944817085232
+    "draft_aft_telegram": 1.5068600426704801,
+    "draft_fore_telegram": 1.7360048778624624,
+    "stw": 2.919612930162871,
+    "diff_speed_overground": 0.1690452470241993,
+    "awind_vcomp_provider": 8.867627562716203,
+    "awind_ucomp_provider": 4.537686560403758,
+    "rcurrent_vcomp": 0.4718243802713021,
+    "rcurrent_ucomp": 0.3415580240293365,
+    "comb_wind_swell_wave_height": 0.8651641429727154,
+    "timeSinceDryDock": 456768.0127673174,
+    "power": 8508.791771395052
 }

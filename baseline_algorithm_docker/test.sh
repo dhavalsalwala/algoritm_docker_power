@@ -5,7 +5,8 @@ SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
 ./build.sh
 
 
-VOLUME_SUFFIX=$(dd if=/dev/urandom bs=32 count=1 | md5sum | cut --delimiter=' ' --fields=1)
+VOLUME_SUFFIX="VOL"
+#$(dd if=/dev/urandom bs=32 count=1 | md5sum | cut --delimiter=' ' --fields=1)
 MEM_LIMIT="15g"  # Maximum is currently 30g, configurable in your algorithm image settings on grand challenge
 
 docker volume create baseline_algorithm_docker-output-$VOLUME_SUFFIX
@@ -23,9 +24,9 @@ docker run --rm \
         -v baseline_algorithm_docker-output-$VOLUME_SUFFIX:/output/ \
         baseline_algorithm_docker
 
-docker run --rm \
-        -v baseline_algorithm_docker-output-$VOLUME_SUFFIX:/output/ \
-        python:3.9-slim cat /output/vessel-power-estimates.json | python3 -m json.tool
+# docker run --rm \
+#         -v baseline_algorithm_docker-output-$VOLUME_SUFFIX:/output/ \
+#         python:3.9-slim cat /output/vessel-power-estimates.json | python3 -m json.tool
 
 docker run --rm \
         -v baseline_algorithm_docker-output-$VOLUME_SUFFIX:/output/ \
