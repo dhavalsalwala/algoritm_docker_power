@@ -24,9 +24,9 @@ docker run --rm \
         -v baseline_algorithm_docker-output-$VOLUME_SUFFIX:/output/ \
         baseline_algorithm_docker
 
-# docker run --rm \
-#         -v baseline_algorithm_docker-output-$VOLUME_SUFFIX:/output/ \
-#         python:3.9-slim cat /output/vessel-power-estimates.json | python3 -m json.tool
+docker run --rm \
+        -v baseline_algorithm_docker-output-$VOLUME_SUFFIX:/output/ \
+        python:3.9-slim cat /output/vessel-power-estimates.json | python3 -m json.tool
 
 docker run --rm \
         -v baseline_algorithm_docker-output-$VOLUME_SUFFIX:/output/ \
