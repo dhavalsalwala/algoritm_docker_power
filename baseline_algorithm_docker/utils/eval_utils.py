@@ -4,9 +4,9 @@ from typing import Dict
 
 import pandas as pd
 
-DEFAULT_OUTPUT_PATH = Path("/Users/dhaval/Projects/shifts/algoritm_docker_power/baseline_algorithm_docker/output")
-DEFAULT_INPUT_PATH = Path("/Users/dhaval/Projects/shifts/algoritm_docker_power/baseline_algorithm_docker/test")
-DEFAULT_MODEL_PATH = Path("/Users/dhaval/Projects/shifts/algoritm_docker_power/baseline_algorithm_docker/model")
+DEFAULT_OUTPUT_PATH = Path("/output")
+DEFAULT_INPUT_PATH = Path("/input")
+DEFAULT_MODEL_PATH = Path("/opt/algorithm/model")
 
 
 def load_json(path: Path):
